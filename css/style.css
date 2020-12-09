@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/* background: #000; */
+}
+html {
+  scroll-behavior: smooth;
+}
+header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+header .logo{}
+header .logo img{}
+header .text{}
+header .text h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+header .text h1 span{
+	color: #166e48;
+}
+.main-body{
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px 20px;
+    border-radius: 40px;
+}
+.main-body .title{
+    padding: 30px 0;
+}
+.main-body .title h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 900;
+    position: relative;
+    padding: 20px 0;
+}
+.main-body .title h1::before{
+	content: "";
+	position: absolute;
+	border-bottom: 2px solid red;
+	width: 16%;
+	bottom: 0;
+	left: 35%;
+}
+.main-body .title h1::after{
+	content: "";
+	position: absolute;
+	border-bottom: 2px solid #166e48;
+	width: 15%;
+	bottom: 0;
+	right: 35%;
+}
+.main-body .btn{
+    text-align: right;
+    margin: 20px 0;
+}
+.main-body .btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background: black;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+.main-body .btn a:hover{
+	box-shadow: 0 4px 8px gray;
+}
+.main-body .btn a:focus{
+    outline: none !important;
+}
+
+.main-body .btn a i{
+    color: black;
+    height: 30px;
+    width: 30px;
+    background: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+}
+.main-body .btn a span{}
+.main-body table{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.main-body table tr{}
+.main-body table tr th{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.main-body table tr td{
+    padding: 20px 0;
+    font-weight: 500;
+    width: 16.66%;
+}
+.main-body table tr td a{
+    color: white;
+    background: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.main-body table tr td a:hover{
+    background: #166e48;
+}
+.main-body table tr .link{}
+.main-body table tr .link:hover{}
+
+
+footer{
+	width: 80%;
+	margin: auto;
+	padding: 100px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+footer .mentor{}
+footer .mentor p{
+    font-size: 18px;
+}
+footer .mentor p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+footer .mentor p a i{
+	padding: 0 10px;
+	color: #005aff;
+}
+footer .designby{}
+footer .designby p{
+	font-size: 18px;
+}
+footer .designby p a{
+	text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+footer .designby p a i{
+	padding: 0 10px;
+	color: #005aff;
+}
+
